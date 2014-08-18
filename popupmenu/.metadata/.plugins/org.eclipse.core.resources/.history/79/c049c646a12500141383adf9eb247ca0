@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:paddingLeft="0dp" >
+        <ImageButton
+            android:id="@+id/leftImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp" >
+            <TextView
+                android:id="@+id/forcedMatching"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:text="Fate of the Day"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20sp" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <ImageButton
+                android:id="@+id/rightImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="0dp" >
+        <ImageButton
+            android:id="@+id/person1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="22dp"
+            android:layout_weight="2.44"
+            android:background="#000000"
+            android:paddingLeft="30dp"
+            android:paddingRight="27dp"
+            android:src="@drawable/icon" />
+        <ImageButton
+            android:id="@+id/person2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.44"
+            android:background="#000000"
+            android:paddingLeft="27dp"
+            android:paddingRight="27dp"
+            android:src="@drawable/icon" />
+        <ImageButton
+            android:id="@+id/person3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_weight="2.44"
+            android:background="#000000"
+            android:paddingLeft="27dp"
+            android:paddingRight="30dp"
+            android:src="+@drawable/icon" />
+    </LinearLayout>
+    
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:textColor="#808080"
+        android:id="@+id/selection"/>
+	
+	
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/usermessage1"
+            android:layout_width="111dp"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:text="User Messages" />
+        <TextView
+            android:id="@+id/usermessage2"
+            android:layout_width="106dp"
+            android:layout_height="84dp"
+            android:padding="20dp"
+            android:text="User Messages" />
+        <TextView
+            android:id="@+id/usermessage3"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="User Messages" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Change Widget Type" description="Change Widget Type" file="/Main/res/layout/main.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.changeview" proj="/Main" sel-end="791" sel-start="492" stamp="1407131512960" type="android.widget.ImageButton"/>
+</session>
